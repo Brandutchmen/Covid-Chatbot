@@ -99,6 +99,8 @@ def getVoiceInput():
             return "You are welcome"
         elif(user_response=='i love you'):
             return "I love you, too."
+        elif(user_response=='bye'):
+            exit()
         else:
             if(greeting(user_response)!=None):
                 return greeting(user_response)
